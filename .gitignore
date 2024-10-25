@@ -1,0 +1,22 @@
+
+
+# Virtual environment
+venv/
+env/
+*.venv/
+.env/
+.venv/
+
+# Python cache files
+*.pyc
+__pycache__/
+
+# PyTorch related files
+*.dylib
+*.so
+*.dll
+
+# Add any other files or directories you want to ignore
+
+# Ensure the entire venv directory is ignored
+venv/**
